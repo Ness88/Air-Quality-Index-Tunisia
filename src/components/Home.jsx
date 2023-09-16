@@ -20,6 +20,17 @@ function Home() {
       (country) => country.name.toLowerCase().includes(filter.toLowerCase()),
     )
     : [];
+  const getAQIDescription = (aqiValue) => {
+    const aqiDescriptions = {
+      1: 'Good',
+      2: 'Fair',
+      3: 'Moderate',
+      4: 'Poor',
+      5: 'Very Poor',
+    };
+    return aqiDescriptions[aqiValue] || 'Unknown';
+  };
+
   return (
     <div className="homeContainer">
       <div className="principal">
@@ -27,7 +38,7 @@ function Home() {
       </div>
       <input
         type="text"
-        placeholder="Search by Country Name"
+        placeholder="Search by State name"
         value={filter}
         onChange={(e) => setFilter(e.target.value)}
       />
@@ -37,16 +48,21 @@ function Home() {
           filteredCountries.map((country, index) => (
             <div
               key={country.name}
-              className={`gridListItem ${index % 4 === 1 || (index - 1) % 4 === 1 ? 'even' : 'odd'}`}
+              className={`gridListItem ${index % 4 === 1 || (index - 1) % 4 === 1
+                ? 'even'
+                : 'odd'
+              }`}
             >
               <span>{country.name}</span>
+              <div className="colorCircle" style={{ backgroundColor: getAQIDescription(country.aqi) }} />
               <div className="position">
                 <img src={position} alt="" />
                 <br />
-                Latitude:
+                Latitude :
                 {' '}
                 {country.lat.toFixed(2)}
-                Longitude:
+                <br />
+                Longitude :
                 {' '}
                 {country.lon.toFixed(2)}
               </div>

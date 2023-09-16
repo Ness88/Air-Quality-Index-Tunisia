@@ -204,7 +204,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to express my gratitude to Microverse online school and our coding partners..
+I would like to extend my sincere appreciation to **Nelson Sakwa** for his exceptional design work[See Design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), which served as the foundation for the user interface of this project. Nelson's creative talent and attention to detail significantly enhanced the visual appeal of the Air Quality Index App for Tunisia. You can explore more of Nelson's remarkable designs and projects by visiting his portfolio at [Link to Nelson's Portfolio](https://www.behance.net/sakwadesignstudio). I am deeply grateful for the inspiration and guidance his design provided throughout this project.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

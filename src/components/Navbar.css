@@ -26,3 +26,9 @@ nav span {
   font-size: 1.5rem;
   margin-left: 1rem;
 }
+
+@media screen and (max-width: 576px) {
+  nav span {
+    display: none;
+  }
+}

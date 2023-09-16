@@ -54,6 +54,7 @@ function Details() {
             {Object.keys(data1.list[0].components).map((key) => (
               <li key={key}>
                 {key}
+
                 :
                 {data1.list[0].components[key]}
               </li>
