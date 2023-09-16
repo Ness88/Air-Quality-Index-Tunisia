@@ -39,7 +39,7 @@
 Welcome to Air-Quality-Index-Tunisia web single page application! This project aims to provide current air pollution data for any coordinates on the globe. This README will guide you through setting up the application and understanding its structure.
 
 
-- See Video : [Video](https://www.loom.com/share/427a843e2a384c1f9e404d0ad438b682?sid=d62c0871-ffb9-4e74-8d2d-0a183f474eec)
+- See Video : [Video](https://www.loom.com/share/35ee26239bd74bf5a579f4e6cee5cb00?sid=9ab44b59-cc8d-4d06-adfe-22aa49baec6c)
 
 ## 🛠 Built With <a name="built-with"></a>
 
